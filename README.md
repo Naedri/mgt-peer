@@ -1,27 +1,39 @@
 # MgtPeer
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.2.
+To allow to play at MGT remotly.
 
-## Development server
+## Installation
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+```sh
+git clone https://github.com/Naedri/mgt-peer.github
+cd mgt-peer
+npm install
+npm start
+```
 
-## Code scaffolding
+See result at the following page : [http://localhost:4200/](http://localhost:4200/)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Commands
 
-## Build
+```sh
+# to generate a new component
+# ng generate component|directive|pipe|service|class|guard|interface|enum|module
+ng generate component component-name
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+# to start a dev server
+ng serve
 
-## Running unit tests
+# to build the project
+ng build
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Tech stack
 
-## Running end-to-end tests
+- [angular](https://angular.io)
+- [tailwindcss](https://tailwindcss.com)
+- [webrtc](https://webrtc.org/)
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Ressources
 
-## Further help
+- [ScryFall](https://scryfall.com/docs/api)
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
