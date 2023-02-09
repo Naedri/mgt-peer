@@ -25,6 +25,9 @@ ng serve
 
 # to build the project
 ng build
+
+# to test
+ng test
 ```
 
 ## Tech stack
