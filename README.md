@@ -31,6 +31,7 @@ ng build
 
 - [angular](https://angular.io)
 - [tailwindcss](https://tailwindcss.com)
+- [material](https://material.angular.io/)
 - [webrtc](https://webrtc.org/)
 
 ## Ressources
