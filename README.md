@@ -15,6 +15,8 @@ See result at the following page : [http://localhost:4200/](http://localhost:420
 
 ## Commands
 
+### Angular
+
 ```sh
 # to generate a new component
 # ng generate component|directive|pipe|service|class|guard|interface|enum|module
@@ -30,6 +32,17 @@ ng build
 ng test
 ```
 
+### Npm
+
+```sh
+# to search for problems, but will not fix
+npm run lint
+# to search and try to fix the problems
+npm run lint:fix
+# to call prettier to fix the code style
+npm run format
+```
+
 ## Tech stack
 
 - [angular](https://angular.io)
@@ -39,4 +52,3 @@ ng test
 ## Ressources
 
 - [ScryFall](https://scryfall.com/docs/api)
-
