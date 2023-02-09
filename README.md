@@ -30,7 +30,6 @@ ng build
 ## Tech stack
 
 - [angular](https://angular.io)
-- [tailwindcss](https://tailwindcss.com)
 - [material](https://material.angular.io/)
 - [webrtc](https://webrtc.org/)
 
