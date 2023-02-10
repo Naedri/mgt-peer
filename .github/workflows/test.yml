@@ -10,11 +10,15 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
-    - uses: actions/setup-node@v1
-      with:
-        node-version: '18'
-    - name: Run Karma Tests
-      run: |
-        npm install
-        npm run test
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v1
+        with:
+          node-version: '18'
+      - name: Install Chromium
+        run: sudo apt install chromium-browser
+      - name: Install Node dependencies
+        run: npm install
+      - name: Run Karma Tests
+        run: npm run test:ci
+        env:
+          CI: true
