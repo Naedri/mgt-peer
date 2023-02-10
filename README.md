@@ -35,11 +35,9 @@ ng test
 ### Npm
 
 ```sh
-# to search for problems, but will not fix
+# to search for problems, without fix it
 npm run lint
-# to search and try to fix the problems
-npm run lint:fix
-# to call prettier to fix the code style
+# to search for problems to fix it
 npm run format
 ```
 
